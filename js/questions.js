@@ -1,33 +1,33 @@
 const questions = [
   /* Category 1 Questions */
   {
-    prompt: 'Who describes big data as an inability of conventional/traditional data management methods?',
-    options: ['NASA', 'National Institutes of Standards & Technology (NIST)', 'U.S. National Science Foundation (NSF)', 'All of the above'],
-    correctAnswer: 'All of the above',
+    prompt: 'Which concept defines what actions are possible?',
+    options: ['Preattentive processing', 'Affordances', 'Signifiers', 'DIKW pyramid'],
+    correctAnswer: 'Affordances',
     cashPrize: 10
   },
   {
-    prompt: 'What were some challenges posed by the NSF?',
-    options: ['Data sets being too numerous and too large', 'Data sets too unorganized and too heterogenous', 'Limitations in our ability to use data', 'All of the above'],
+    prompt: 'What are visualizations used for?',
+    options: ['Adapting form to the nature of the information', 'Analyzing & modeling data', 'Helping an audience complete certain tasks', 'All of the above'],
     correctAnswer: 'All of the above',
     cashPrize: 50
   },
   {
-    prompt: 'Which element does not belong in the 5-V framework?',
-    options: ['Veracity', 'Voracity', 'Variety', 'Value'],
-    correctAnswer: 'Voracity',
+    prompt: 'Labels and features are an example of what?',
+    options: ['Infovis vs scivis', 'Dendograms', 'Stem-and-leaf plot', 'Independent vs. dependent variables'],
+    correctAnswer: 'Independent vs. dependent variables',
     cashPrize: 100
   },
   {
-    prompt: 'Which of the following statements are not true?',
-    options: ['The Internet Assigned Numbers Authority (IANA) specified the 8 top-level media types', 'Media types and MIME types are two different things', 'Request for Comments (RFCs) were managed by different groups over the years', 'RFC 822 was the standard for ARPA in the early 80s'],
-    correctAnswer: 'Media types and MIME types are two different things',
+    prompt: 'How many 10TB hard drives are needed to store 1 Exabyte?',
+    options: ['10^4', '10^18', '10^5', '10^6'],
+    correctAnswer: '10^5',
     cashPrize: 500
   },
   {
-    prompt: 'Which of the following statements are not true?',
-    options: ['Initially there were only 6 top level MIME types', 'RFC 2046 improves on RFC 2045 by differentiating discrete and composite types', 'RFC 2045 addressed RFC 822\'s limitation with email attachments and defined usage of MIME types', 'In RFC 2046 new extension types can be added without IANA'],
-    correctAnswer: 'Initially there were only 6 top level MIME types',
+    prompt: 'What is NOT true about this code? p <- ggplot(iris, aes(Sepal.Length, Sepal.Width)) + geom_point() + facet_grid(rows = NULL, vars (Species))',
+    options: ['It is setting data and mappings defaults', 'It produces a scatterplot', 'Plots are facetted', 'No themes are applied'],
+    correctAnswer: 'Plots are facetted',
     cashPrize: 1000
   },
   /* Category 2 Questions */
