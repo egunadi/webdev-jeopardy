@@ -32,33 +32,33 @@ const questions = [
   },
   /* Category 2 Questions */
   {
-    prompt: 'Which of the following are true about web duplicates?',
-    options: ['Exact matches can be verified with hashes (SHA-1, MD5, etc.)', 'Different URLs can point to the same exact web page', 'Duplicate detection is used to optimize web crawling and data analysis (clustering, spam detection, etc.)', 'All of the above'],
-    correctAnswer: 'All of the above',
+    prompt: 'What is the type of this data? -20°C, 70°C, 80°C, 90°C, 100°C, 110°C',
+    options: ['Numerical, interval', 'Categorical, nominal', 'Numerical, ratio', 'Categorical, ordinal'],
+    correctAnswer: 'Numerical, interval',
     cashPrize: 10
   },
   {
-    prompt: 'Which of the following is not true about distance measures',
-    options: ['Distances are >= 0 (0 being an exact match) and bidirectionally symmetric', 'They\'re used to sort/cluster and compare hashed documents', 'Edit distance measures the changes needed to get from one set of features to another', 'Euclidean distance treats documents as vectors and measures the angle between them'],
-    correctAnswer: 'Euclidean distance treats documents as vectors and measures the angle between them',
+    prompt: 'What is printed in the console? function f2(a1, a2) {var v=5; function f1(a) {return a1+a2-v+1;} return f1;} var f = f2(1, 2); v = f(3); console.log(v);',
+    options: ['1', 'undefined', '3', '0'],
+    correctAnswer: '1',
     cashPrize: 50
   },
   {
-    prompt: 'Jaccard similarity…',
-    options: ['Is related to computing shingles', 'Measures resemblance & containment (how much of one document is in another)', 'All of the above', 'None of the above'],
-    correctAnswer: 'All of the above',
+    prompt: 'What visualization wheel dimension "measures the distance from referent to representation"?',
+    options: ['Unidimensionality-Multidimensionality', 'Decoration-Functionality', 'Familiarity-Originality', 'Figuration-Abstraction'],
+    correctAnswer: 'Figuration-Abstraction',
     cashPrize: 100
   },
   {
-    prompt: 'What are some use cases for automated file detection?',
-    options: ['Security (antivirus, firewalls, etc.)', 'Data processing (ex. for forensics, scientific research, or web crawling)', 'Data distribution (repositories)', 'All of the above'],
-    correctAnswer: 'All of the above',
+    prompt: 'What is not true about D3?',
+    options: ['Loads data in the browser and binds it to document elements', 'Transitions elements between states in response to user input', 'Transforms those elements by interpreting each element\'s bound datum and setting its visual properties', 'Can work with various datasets (object, array, etc.)'],
+    correctAnswer: 'Can work with various datasets (object, array, etc.)',
     cashPrize: 500
   },
   {
-    prompt: 'What is not an example of a content-based (non basic) file detection method?',
-    options: ['Byte Frequency Analysis/Distribution (BFD)', '/etc/magic and container files', 'File Header Trailer (FHT)', 'Byte Frequency (Cross) Correlation (BFC)'],
-    correctAnswer: '/etc/magic and container files',
+    prompt: 'When loaded in the browser what will appear on the page? <svg width="100" height="100" style="border: 1px solid lightblue;"><circle cx="50" r="20" fill="red">1</circle></svg>',
+    options: ['Half black circle at (x=50, y=0) with 1 written in red inside', 'Half red circle at (x=50, y=0) with 1 written in black inside', 'Half red circle at (x=50, y=0)', 'Half black circle at (x=100, y=0)'],
+    correctAnswer: 'Half red circle at (x=50, y=0)',
     cashPrize: 1000
   },
   /* Category 3 Questions */
