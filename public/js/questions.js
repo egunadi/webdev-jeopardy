@@ -63,8 +63,8 @@ const questions = [
   },
   /* Category 3 Questions */
   {
-    prompt: 'What is not a reason why we would use a content-based (non basic) file detection method?',
-    options: ['Per McDaniel & Heydari (2003), content-based methods are more accurate, low-maintenance (flexible), and easier to automate', 'Content-independent methods are easily spoofed and harder to maintain', 'All of the above', 'None of the above'],
+    prompt: 'Tufte is known for which of the following concepts?',
+    options: ['In a minimalistic visualization most graphical elements are data', 'Elegance in visuals is attained when the complexity of the data matches the simplicity of the design', 'Chartjunk is ink used for non-data or redundant data', 'All of the above'],
     correctAnswer: 'All of the above',
     cashPrize: 10
   },
