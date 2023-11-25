@@ -69,27 +69,27 @@ const questions = [
     cashPrize: 10
   },
   {
-    prompt: 'Tag/annotation ratios (or histogram clustering) are part of which step of the text extraction process?',
-    options: ['(1) Identification of text (via metadata, file headers, etc.)', '(2) Structural and contextual analysis (so we know what to do with it)', '(3) Featurize/summarize text (to identify/highlight important parts)', 'None of the above'],
-    correctAnswer: '(2) Structural and contextual analysis (so we know what to do with it)',
+    prompt: 'Cairo is known for which of the following concepts?',
+    options: ['Use humor to instill affection in readers for numbers and charts', 'Maximize the data-ink ratio', '(1) Seek depth, (2) Clarify, and (3) Add Boom effect to "find the soft spot" in infographics', 'None of the above'],
+    correctAnswer: '(1) Seek depth, (2) Clarify, and (3) Add Boom effect to "find the soft spot" in infographics',
     cashPrize: 50
   },
   {
-    prompt: 'BoilerPipe algorithms (or boilerplate detection) are part of which step of the text extraction process?',
-    options: ['(1) Identification of text (via metadata, file headers, etc.)', '(2) Structural and contextual analysis (so we know what to do with it)', '(3) Featurize/summarize text (to identify/highlight important parts)', 'None of the above'],
-    correctAnswer: '(3) Featurize/summarize text (to identify/highlight important parts)',
+    prompt: 'Which statements about visual information processing IS NOT correct?',
+    options: ['Top-down attentional processes reinforce relevant information', 'In bottom-up processing features are integrated into patterns and patterns are integrated into objects', 'In top-down processing, our perceptual system first uses sensory input to detect features', 'Bottom-up information drives pattern building'],
+    correctAnswer: 'In top-down processing, our perceptual system first uses sensory input to detect features',
     cashPrize: 100
   },
   {
-    prompt: 'What is not one of the main uses metadata?',
-    options: ['Using structural metadata to see how the data "fits together"', 'Using administrative metadata to manage permissions/rights', 'Using structural metadata to determine how to preserve the data', 'Using descriptive metadata to identify the data'],
-    correctAnswer: 'Using structural metadata to determine how to preserve the data',
+    prompt: 'For which choice of variables all the circles are fully contained inside the <svg>? var data=[0, 50, 100, 200]; var svg=d3.select(#chart).attr('width', 200).attr('height', 200); var scale=d3.scaleLinear().domain([d3.min(data), d3.max(data)]).range(rx, ry); svg.selectAll('circles').data(data).enter().append('circle').attr('r', 10).attr('cx', d=>scale(d)).attr('cy', 20);',
+    options: ['var rx=0, ry=200;', 'var rx=10, ry=190', 'var rx=200, ry=0', 'var rx=190, ry=10;'],
+    correctAnswer: 'var rx=10, ry=190',
     cashPrize: 500
   },
   {
-    prompt: 'Who describes metadata as information used to describe/explain, locate/retrieve, or use/manage information?',
-    options: ['National Information Standards Organization (NISO)', 'Wikipedia', 'All of the above', 'None of the above'],
-    correctAnswer: 'National Information Standards Organization (NISO)',
+    prompt: 'How will the axis appear on the page? var scale=d3.scaleLinear().domain(10, 20001).range(10, 2001); var svg=d3.select('body').append('svg').attr('width', 900).attr('height', 900); var axis=d3.axisLeft().scale(scale); svg.append('g').attr('transform', 'translate (850, 50)').call(axis)',
+    options: ['Left of the <svg> with tick marks on the right', 'Right of the <svg> with tick marks on the right', 'Right of the <svg> with tick marks on the left', 'Left of the <svg> with tick marks on the left'],
+    correctAnswer: 'Right of the <svg> with tick marks on the left',
     cashPrize: 1000
   },
   /* Category 4 Questions */
