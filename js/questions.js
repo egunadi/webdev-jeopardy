@@ -81,13 +81,13 @@ const questions = [
     cashPrize: 100
   },
   {
-    prompt: 'For which choice of variables all the circles are fully contained inside the <svg>? var data=[0, 50, 100, 200]; var svg=d3.select(#chart).attr('width', 200).attr('height', 200); var scale=d3.scaleLinear().domain([d3.min(data), d3.max(data)]).range(rx, ry); svg.selectAll('circles').data(data).enter().append('circle').attr('r', 10).attr('cx', d=>scale(d)).attr('cy', 20);',
+    prompt: 'For which choice of variables all the circles are fully contained inside the <svg>? var data=[0, 50, 100, 200]; var svg=d3.select(#chart).attr(\'width\', 200).attr(\'height\', 200); var scale=d3.scaleLinear().domain([d3.min(data), d3.max(data)]).range(rx, ry); svg.selectAll(\'circles\').data(data).enter().append(\'circle\').attr(\'r\', 10).attr(\'cx\', d=>scale(d)).attr(\'cy\', 20);',
     options: ['var rx=0, ry=200;', 'var rx=10, ry=190', 'var rx=200, ry=0', 'var rx=190, ry=10;'],
     correctAnswer: 'var rx=10, ry=190',
     cashPrize: 500
   },
   {
-    prompt: 'How will the axis appear on the page? var scale=d3.scaleLinear().domain(10, 20001).range(10, 2001); var svg=d3.select('body').append('svg').attr('width', 900).attr('height', 900); var axis=d3.axisLeft().scale(scale); svg.append('g').attr('transform', 'translate (850, 50)').call(axis)',
+    prompt: 'How will the axis appear on the page? var scale=d3.scaleLinear().domain(10, 20001).range(10, 2001); var svg=d3.select(\'body\').append(\'svg\').attr(\'width\', 900).attr(\'height\', 900); var axis=d3.axisLeft().scale(scale); svg.append(\'g\').attr(\'transform\', \'translate (850, 50)\').call(axis)',
     options: ['Left of the <svg> with tick marks on the right', 'Right of the <svg> with tick marks on the right', 'Right of the <svg> with tick marks on the left', 'Left of the <svg> with tick marks on the left'],
     correctAnswer: 'Right of the <svg> with tick marks on the left',
     cashPrize: 1000
