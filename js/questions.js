@@ -94,33 +94,33 @@ const questions = [
   },
   /* Category 4 Questions */
   {
-    prompt: 'What is not true about Dublin Core?',
-    options: ['It is based off the ISO-11179 metadata standard', 'It uses 15 elements to describe any electronic resource', 'It\'s the inspiration for other metadata syntax (ex. Schema.org)', 'It is known for its support in marking up research papers in the humanities'],
-    correctAnswer: 'It is known for its support in marking up research papers in the humanities',
+    prompt: 'Which statement(s) about pre-attentive processing IS NOT correct?',
+    options: ['Conjunction search is typically carried out pre-attentively', 'Involves saccades', 'Exact counting is a pre-attentive task', 'All of the above'],
+    correctAnswer: 'All of the above',
     cashPrize: 10
   },
   {
-    prompt: 'UNIX was added relatively later into what popular propietary operating system?',
-    options: ['Windows 10', 'Linux Mint', 'Mac OS X', 'Ubuntu'],
-    correctAnswer: 'Mac OS X',
+    prompt: 'Which statement about d3 event handling IS NOT correct?',
+    options: ['Defaults to using the capture phase', 'Implements the DOM Level 2 event model', 'Can be used on the enter, update, merge and exit selections', 'Can be used on d3 selections'],
+    correctAnswer: 'Defaults to using the capture phase',
     cashPrize: 50
   },
   {
-    prompt: 'The command "man x" would?',
-    options: ['Bring up the task manager for x', 'Modularize x', 'Attempt to bring up the manual page for x', 'Make x mandatory on startup'],
-    correctAnswer: 'Attempt to bring up the manual page for x',
+    prompt: 'Which statement about d3 event handling IS NOT correct?',
+    options: ['Defaults to using the capture phase', 'Implements the DOM Level 2 event model', 'Can be used on the enter, update, merge and exit selections', 'Can be used on d3 selections'],
+    correctAnswer: 'Defaults to using the capture phase',
     cashPrize: 100
   },
   {
-    prompt: 'Someone shady on the internet tells you to enter a "rm -rf" command into your terminal on your root directory. Doing this would:',
-    options: ['Remake your filedomains', 'Rename your file register', 'Recursively rename all your files with the tag rm', 'Irreparably damage your file system'],
-    correctAnswer: 'Irreparably damage your file system',
+    prompt: 'What statement defines a color model?',
+    options: ['The science of color', 'Discrimination of light based on its wavelength components', 'Practical guidance to color mixing and the visual effects of a color combinations', 'Abstract mathematical model describing the way colors can be represented as tuples'],
+    correctAnswer: 'Abstract mathematical model describing the way colors can be represented as tuples',
     cashPrize: 500
   },
   {
-    prompt: 'The GREP command allows a user to:',
-    options: ['Quickly search files for specific items of text', 'Grab-Read-Evaluate-Loop', 'Gauge RAM event parameters', 'Group related events in the processor'],
-    correctAnswer: 'Quickly search files for specific items of text',
+    prompt: 'Color on an LCD screen is from:',
+    options: ['Partitive mixing', 'Addition of illumination', 'Binocular mixing', 'Time mixing'],
+    correctAnswer: 'Partitive mixing',
     cashPrize: 1000
   },
   /* Category 5 Questions */
