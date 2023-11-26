@@ -125,15 +125,15 @@ const questions = [
   },
   /* Category 5 Questions */
   {
-    prompt: 'Use of "Alert" popup windows is often considered bad practice as browsers and users are hostile to pop-ups. What are the other two native Javascript popup functions?',
-    options: ['Warning, Confirm', 'Confirm, Refresh', 'Prompt, Confirm', 'Prompt, Notice'],
-    correctAnswer: 'Prompt, Confirm',
+    prompt: 'Which option contains a cue that IS NOT a static (classic pictoral) depth cue?',
+    options: ['Myosis, texture gradient', 'Linear perspective convergence, relative/familiar size', 'Occlusions, shadows, shading', 'Defocus blur, atmospheric perspective'],
+    correctAnswer: 'Myosis',
     cashPrize: 10
   },
   {
-    prompt: 'The man page for Git describes it as:',
-    options: ['That stupid content tracker', 'A Content Version Tracker', 'General-Index-Tracker', 'A Revision Editor'],
-    correctAnswer: 'That stupid content tracker',
+    prompt: 'Which statement applies to an equal-area projection?',
+    options: ['Directions from a central point are preserved', 'The scale along one or more lines, or from one or two points to all other points is preserved', 'The shape of small regions is preserved', 'Areas are proportional to areas on Earth'],
+    correctAnswer: 'Areas are proportional to areas on Earth',
     cashPrize: 50
   },
   {
