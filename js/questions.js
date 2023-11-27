@@ -137,21 +137,21 @@ const questions = [
     cashPrize: 50
   },
   {
-    prompt: 'What version of what coding language introduced the audio function contained in this page?',
-    options: ['ECMAScript', 'MP3ML', 'HTML5', 'WavML'],
-    correctAnswer: 'HTML5',
+    prompt: 'Which choice about geodetic datum IS NOT correct?',
+    options: ['A geocentric datum is best for global applications', 'A horizontal datum can be defined as "Geodetic", "Tidal", or "Gravimetric"', 'A vertical datum is used to measure elevation', 'A local datum is best for local applications'],
+    correctAnswer: 'A horizontal datum can be defined as "Geodetic", "Tidal", or "Gravimetric"',
     cashPrize: 100
   },
   {
-    prompt: 'Which of these frameworks include support for TypeScript?',
-    options: ['AngularJS', 'Angular', 'JQuery', 'Whitespace'],
-    correctAnswer: 'Angular',
+    prompt: 'Which option contains the principle/law illustrated by [ ] and { }?',
+    options: ['Gestalt principles: Emergence, Reification, Multi-stability, Invariance', 'Gestalt laws of grouping: Proximity, Similarity, Closure, Continuity, Common fate, Connection, Common region', 'Gestalt laws: Pithiness, Figure and ground, Parallelism, Symmetry, Focal points, Past experience', 'All of the above'],
+    correctAnswer: 'Gestalt laws: Pithiness, Figure and ground, Parallelism, Symmetry, Focal points, Past experience',
     cashPrize: 500
   },
   {
-    prompt: 'What is an early computer language famous for being designed by Government and Business without much input from computer scientists?',
-    options: ['MS Office', 'Telnet', 'COBOL', 'C--'],
-    correctAnswer: 'COBOL',
+    prompt: 'In Bertin\'s Semiology of Graphics what choice IS NOT a channel?',
+    options: ['Points', 'Position', 'Textture', 'Shape'],
+    correctAnswer: 'Points',
     cashPrize: 1000
   }
 ];
