@@ -38,7 +38,7 @@ const questions = [
     cashPrize: 10
   },
   {
-    prompt: 'What is printed in the console? function f2(a1, a2) {var v=5; function f1(a) {return a1+a2-v+1;} return f1;} var f = f2(1, 2); v = f(3); console.log(v);',
+    prompt: 'What is printed in the console? function f2(a1, a2) {var v=5; function f1(a) {return a1+a2-v+a;} return f1;} var f = f2(1, 2); v = f(3); console.log(v);',
     options: ['1', 'undefined', '3', '0'],
     correctAnswer: '1',
     cashPrize: 50
@@ -57,7 +57,7 @@ const questions = [
   },
   {
     prompt: 'When loaded in the browser what will appear on the page? <svg width="100" height="100" style="border: 1px solid lightblue;"><circle cx="50" r="20" fill="red">1</circle></svg>',
-    options: ['Half black circle at (x=50, y=0) with 1 written in red inside', 'Half red circle at (x=50, y=0) with 1 written in black inside', 'Half red circle at (x=50, y=0)', 'Half black circle at (x=100, y=0)'],
+    options: ['Half black circle at (x=50, y=0) with 1 written in red inside', 'Half red circle at (x=50, y=0) with 1 written in black inside', 'Half red circle at (x=50, y=0)', 'Half black circle at (x=50, y=0)'],
     correctAnswer: 'Half red circle at (x=50, y=0)',
     cashPrize: 1000
   },
@@ -70,8 +70,8 @@ const questions = [
   },
   {
     prompt: 'Cairo is known for which of the following concepts?',
-    options: ['Use humor to instill affection in readers for numbers and charts', 'Maximize the data-ink ratio', '(1) Seek depth, (2) Clarify, and (3) Add Boom effect to "find the soft spot" in infographics', 'None of the above'],
-    correctAnswer: '(1) Seek depth, (2) Clarify, and (3) Add Boom effect to "find the soft spot" in infographics',
+    options: ['Use humor to instill affection in readers for numbers and charts', 'Maximize the data-ink ratio', '(1) Seek depth, (2) Clarify, and (3) Add Boom effect to find the soft spot in infographics', 'None of the above'],
+    correctAnswer: '(1) Seek depth, (2) Clarify, and (3) Add Boom effect to find the soft spot in infographics',
     cashPrize: 50
   },
   {
@@ -88,8 +88,8 @@ const questions = [
   },
   {
     prompt: 'How will the axis appear on the page? var scale=d3.scaleLinear().domain(10, 20001).range(10, 2001); var svg=d3.select(\'body\').append(\'svg\').attr(\'width\', 900).attr(\'height\', 900); var axis=d3.axisLeft().scale(scale); svg.append(\'g\').attr(\'transform\', \'translate (850, 50)\').call(axis)',
-    options: ['Left of the <svg> with tick marks on the right', 'Right of the <svg> with tick marks on the right', 'Right of the <svg> with tick marks on the left', 'Left of the <svg> with tick marks on the left'],
-    correctAnswer: 'Right of the <svg> with tick marks on the left',
+    options: ['Left of the svg with tick marks on the right', 'Right of the svg with tick marks on the right', 'Right of the svg with tick marks on the left', 'Left of the svg with tick marks on the left'],
+    correctAnswer: 'Right of the svg with tick marks on the left',
     cashPrize: 1000
   },
   /* Category 4 Questions */
@@ -106,9 +106,9 @@ const questions = [
     cashPrize: 50
   },
   {
-    prompt: 'Which statement about d3 event handling IS NOT correct?',
-    options: ['Defaults to using the capture phase', 'Implements the DOM Level 2 event model', 'Can be used on the enter, update, merge and exit selections', 'Can be used on d3 selections'],
-    correctAnswer: 'Defaults to using the capture phase',
+    prompt: 'What is the order of the basic D3 general update pattern?',
+    options: ['Data, update, enter, enter + update, exit', 'Data, enter, enter + update, exit, update', 'Data, enter + update, enter, update, exit', 'Data, enter, enter + update, update, exit'],
+    correctAnswer: 'Data, update, enter, enter + update, exit',
     cashPrize: 100
   },
   {
@@ -127,7 +127,7 @@ const questions = [
   {
     prompt: 'Which option contains a cue that IS NOT a static (classic pictoral) depth cue?',
     options: ['Myosis, texture gradient', 'Linear perspective convergence, relative/familiar size', 'Occlusions, shadows, shading', 'Defocus blur, atmospheric perspective'],
-    correctAnswer: 'Myosis',
+    correctAnswer: 'Myosis, texture gradient',
     cashPrize: 10
   },
   {
@@ -138,8 +138,8 @@ const questions = [
   },
   {
     prompt: 'Which choice about geodetic datum IS NOT correct?',
-    options: ['A geocentric datum is best for global applications', 'A horizontal datum can be defined as "Geodetic", "Tidal", or "Gravimetric"', 'A vertical datum is used to measure elevation', 'A local datum is best for local applications'],
-    correctAnswer: 'A horizontal datum can be defined as "Geodetic", "Tidal", or "Gravimetric"',
+    options: ['A geocentric datum is best for global applications', 'A horizontal datum can be defined as Geodetic, Tidal, or Gravimetric', 'A vertical datum is used to measure elevation', 'A local datum is best for local applications'],
+    correctAnswer: 'A horizontal datum can be defined as Geodetic, Tidal, or Gravimetric',
     cashPrize: 100
   },
   {
@@ -150,7 +150,7 @@ const questions = [
   },
   {
     prompt: 'In Bertin\'s Semiology of Graphics what choice IS NOT a channel?',
-    options: ['Points', 'Position', 'Textture', 'Shape'],
+    options: ['Points', 'Position', 'Texture', 'Shape'],
     correctAnswer: 'Points',
     cashPrize: 1000
   }
